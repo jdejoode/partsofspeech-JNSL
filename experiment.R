@@ -167,8 +167,8 @@ ggsave(file = "./results/PCA_POS.pdf")
 # Create a 3D visualisation, this needs to be screencaptured in some cases
 # https://cran.r-project.org/web/packages/pca3d/pca3d.pdf
 library(pca3d)
-# pca3d(pca, show.labels = TRUE)
-# makeMoviePCA(dir="./results", clean=TRUE, type = "gif", movie = "POS", convert=TRUE)
+pca3d(pca, show.labels = TRUE)
+makeMoviePCA(dir="./results", clean=TRUE, type = "gif", movie = "POS", convert=TRUE)
 
 # Plot the contributions of each POS to the first three dimensions
 # This needs to be saved manually as you need to redimension the window

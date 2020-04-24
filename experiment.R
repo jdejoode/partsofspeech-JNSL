@@ -25,8 +25,8 @@ head(data)
 # The ETCBC data also tags non-consonantal articles
 View(table(data[data$pdp == 'art','g_cons_utf8']))
 
-# Let's remove non-consonantal articles
-data <- data[!((data$pdp == 'art') & (data$g_cons_utf8 != 'ה')),]
+#! Uncomment the following line to remove non-consonantal articles from the data
+# data <- data[!((data$pdp == 'art') & (data$g_cons_utf8 != 'ה')),]
 
 # POS per book
 

@@ -14,7 +14,7 @@ The script experiment.R is set to be run from within RStudio.
 
 # Results
 
-The results include a PLA biplot in 2D and one in 3D as well as a correlation plot.
+The results include a PCA biplot in 2D and one in 3D as well as a correlation plot.
 They can be inspected in the results folder.
 
 # Attribution

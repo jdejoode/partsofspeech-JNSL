@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/263633532.svg)](https://zenodo.org/badge/latestdoi/263633532)
+
 This repository contains the code and data for a paper on the 
 automated extraction of literary genres based on distributions of 
 parts of speech.

@@ -6,7 +6,7 @@ parts of speech.
 
 # Data
 
-The data are taken from the ETCBC (https://github.com/ETCBC/bhsa). 
+The data are taken from the [ETCBC](https://github.com/ETCBC/bhsa). 
 
 # Experiment
 
